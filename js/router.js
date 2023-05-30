@@ -24,9 +24,9 @@ export class Router {
         
         if (pathname === "/") {
             backgroundImg = "url(https://i.imgur.com/fLUeXma.png)";
-        } else if (pathname === "/oUniverso") {
+        } else if (pathname === "/theUniverse") {
             backgroundImg = "url(https://i.imgur.com/5TQC88y.png)";
-        } else if (pathname === "/exploracao") {
+        } else if (pathname === "/exploration") {
             backgroundImg = "url(https://i.imgur.com/AkPgmoa.png)";
         } else {
             backgroundImg = "url(https://i.imgur.com/fLUeXma.png)";
@@ -43,11 +43,11 @@ export class Router {
            nav1.classList.add("selected")
            nav2.classList.remove("selected")
            nav3.classList.remove("selected");
-        } else if (pathname === "/oUniverso") {
+        } else if (pathname === "/theUniverse") {
             nav1.classList.remove("selected")
             nav2.classList.add("selected")
             nav3.classList.remove("selected");
-        } else if (pathname === "/exploracao") {
+        } else if (pathname === "/exploration") {
             nav1.classList.remove("selected")
             nav2.classList.remove("selected")
             nav3.classList.add("selected");

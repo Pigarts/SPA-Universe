@@ -101,7 +101,7 @@ p {
 
 
 
-.home button {
+.home .button {
     padding: 1.2rem 3.2rem;
     background-color: rgba(255, 255, 255, 0);
     border: solid white;
@@ -111,9 +111,11 @@ p {
     font-size: 1.4rem;
     line-height: 2.4rem;
     transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.home button:hover {
+.home .button:hover {
     background-color: rgb(255, 255, 255);
     color: #02799D;
     font-weight: 700;
@@ -121,7 +123,7 @@ p {
     cursor: pointer;
 }
 
-.oUniverso, .exploracao {
+.theUniverse, .exploration {
     margin: 10.2rem;
     display: flex;
     flex-direction: column;
